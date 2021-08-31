@@ -22,6 +22,14 @@ draw_self();
 /// @DnDArgument : "maxcol" "$FF0000FF"
 draw_healthbar(x + 45, y + 32, x + 50, y + -32, invasion_progression, $FFCCCCCC & $FFFFFF, $FF14B8FF & $FFFFFF, $FF0000FF & $FFFFFF, 2, (($FFCCCCCC>>24) != 0), (($FF191919>>24) != 0));
 
+/// @DnDAction : YoYo Games.Drawing.Set_Color
+/// @DnDVersion : 1
+/// @DnDHash : 67E1C9B3
+/// @DnDArgument : "color" "$FF333333"
+draw_set_colour($FF333333 & $ffffff);
+var l67E1C9B3_0=($FF333333 >> 24);
+draw_set_alpha(l67E1C9B3_0 / $ff);
+
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 1B3A2748
@@ -44,14 +52,6 @@ draw_text(x + -32, y + 60, string("Azul:  ") + string(global.item[0]));
 /// @DnDArgument : "var" "global.item[1]"
 draw_text(x + -32, y + 80, string("Rosa:  ") + string(global.item[1]));
 
-/// @DnDAction : YoYo Games.Drawing.Set_Color
-/// @DnDVersion : 1
-/// @DnDHash : 67E1C9B3
-/// @DnDArgument : "color" "$FF333333"
-draw_set_colour($FF333333 & $ffffff);
-var l67E1C9B3_0=($FF333333 >> 24);
-draw_set_alpha(l67E1C9B3_0 / $ff);
-
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 7D4EDD69
@@ -62,3 +62,13 @@ draw_set_alpha(l67E1C9B3_0 / $ff);
 /// @DnDArgument : "caption" ""verde:  ""
 /// @DnDArgument : "var" "global.item[2]"
 draw_text(x + -32, y + 100, string("verde:  ") + string(global.item[2]));
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 0C79C3CE
+/// @DnDArgument : "code" "if(global.quest_active == true){$(13_10)draw_text(x + -32, y + 130, string("azul:  ") + string(quest_item_amount[0]));$(13_10)draw_text(x + -32, y + 150, string("rosa:  ") + string(quest_item_amount[1]));$(13_10)draw_text(x + -32, y + 170, string("verde:  ") + string(quest_item_amount[2]));$(13_10)}"
+if(global.quest_active == true){
+draw_text(x + -32, y + 130, string("azul:  ") + string(quest_item_amount[0]));
+draw_text(x + -32, y + 150, string("rosa:  ") + string(quest_item_amount[1]));
+draw_text(x + -32, y + 170, string("verde:  ") + string(quest_item_amount[2]));
+}
