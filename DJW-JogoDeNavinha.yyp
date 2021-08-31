@@ -2,11 +2,13 @@
   "resources": [
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":1,},
     {"id":{"name":"borderTest","path":"sprites/borderTest/borderTest.yy",},"order":6,},
+    {"id":{"name":"obj_enemyPrototypeTest","path":"objects/obj_enemyPrototypeTest/obj_enemyPrototypeTest.yy",},"order":7,},
     {"id":{"name":"obj_uiTest","path":"objects/obj_uiTest/obj_uiTest.yy",},"order":4,},
     {"id":{"name":"obj_gameManager","path":"objects/obj_gameManager/obj_gameManager.yy",},"order":5,},
     {"id":{"name":"obj_aim","path":"objects/obj_aim/obj_aim.yy",},"order":0,},
     {"id":{"name":"spr_ship","path":"sprites/spr_ship/spr_ship.yy",},"order":5,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":1,},
+    {"id":{"name":"spr_projectile","path":"sprites/spr_projectile/spr_projectile.yy",},"order":7,},
     {"id":{"name":"snd_Machinegun","path":"sounds/snd_Machinegun/snd_Machinegun.yy",},"order":0,},
     {"id":{"name":"spr_space_ship","path":"sprites/spr_space_ship/spr_space_ship.yy",},"order":0,},
     {"id":{"name":"obj_shipBody","path":"objects/obj_shipBody/obj_shipBody.yy",},"order":2,},
