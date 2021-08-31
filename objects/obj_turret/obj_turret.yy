@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_space_ship",
-    "path": "sprites/spr_space_ship/spr_space_ship.yy",
+    "name": "spr_shipTurret",
+    "path": "sprites/spr_shipTurret/spr_shipTurret.yy",
   },
   "solid": false,
   "visible": true,
@@ -36,7 +36,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_player",
+  "name": "obj_turret",
   "tags": [],
   "resourceType": "GMObject",
 }
