@@ -30,43 +30,32 @@ draw_set_colour($FF333333 & $ffffff);
 var l67E1C9B3_0=($FF333333 >> 24);
 draw_set_alpha(l67E1C9B3_0 / $ff);
 
-/// @DnDAction : YoYo Games.Drawing.Draw_Value
-/// @DnDVersion : 1
-/// @DnDHash : 1B3A2748
-/// @DnDArgument : "x" "-32"
-/// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "60"
-/// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "caption" ""Azul:  ""
-/// @DnDArgument : "var" "global.item[0]"
-draw_text(x + -32, y + 60, string("Azul:  ") + string(global.item[0]));
-
-/// @DnDAction : YoYo Games.Drawing.Draw_Value
-/// @DnDVersion : 1
-/// @DnDHash : 443D3A93
-/// @DnDArgument : "x" "-32"
-/// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "80"
-/// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "caption" ""Rosa:  ""
-/// @DnDArgument : "var" "global.item[1]"
-draw_text(x + -32, y + 80, string("Rosa:  ") + string(global.item[1]));
-
-/// @DnDAction : YoYo Games.Drawing.Draw_Value
-/// @DnDVersion : 1
-/// @DnDHash : 7D4EDD69
-/// @DnDArgument : "x" "-32"
-/// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "100"
-/// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "caption" ""verde:  ""
-/// @DnDArgument : "var" "global.item[2]"
-draw_text(x + -32, y + 100, string("verde:  ") + string(global.item[2]));
-
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 0C79C3CE
-/// @DnDArgument : "code" "if(global.quest_active == true){$(13_10)draw_text(x + -32, y + 130, string("azul:  ") + string(quest_item_amount[0]));$(13_10)draw_text(x + -32, y + 150, string("rosa:  ") + string(quest_item_amount[1]));$(13_10)draw_text(x + -32, y + 170, string("verde:  ") + string(quest_item_amount[2]));$(13_10)}"
+/// @DnDArgument : "code" "var azul, rosa, verde;$(13_10)if(global.item[0] >= quest_item_amount[0]){$(13_10)	azul = quest_item_amount[0];$(13_10)}else{$(13_10)	azul = global.item[0]; $(13_10)}$(13_10)if(global.item[1] >= quest_item_amount[1]){$(13_10)	rosa = quest_item_amount[1];$(13_10)}else{$(13_10)	rosa = global.item[1]; $(13_10)}$(13_10)if(global.item[2] >= quest_item_amount[2]){$(13_10)	verde = quest_item_amount[2];$(13_10)}else{$(13_10)	verde = global.item[2]; $(13_10)}$(13_10)$(13_10)draw_text(x + -32, y + 60, string("Azul:  ") + string(azul));$(13_10)draw_text(x + -32, y + 80, string("Rosa:  ") + string(rosa));$(13_10)draw_text(x + -32, y + 100, string("verde:  ") + string(verde));$(13_10)$(13_10)$(13_10)if(global.quest_active == true){$(13_10)draw_text(x + -32, y + 130, string("azul:  ") + string(quest_item_amount[0]));$(13_10)draw_text(x + -32, y + 150, string("rosa:  ") + string(quest_item_amount[1]));$(13_10)draw_text(x + -32, y + 170, string("verde:  ") + string(quest_item_amount[2]));$(13_10)}"
+var azul, rosa, verde;
+if(global.item[0] >= quest_item_amount[0]){
+	azul = quest_item_amount[0];
+}else{
+	azul = global.item[0]; 
+}
+if(global.item[1] >= quest_item_amount[1]){
+	rosa = quest_item_amount[1];
+}else{
+	rosa = global.item[1]; 
+}
+if(global.item[2] >= quest_item_amount[2]){
+	verde = quest_item_amount[2];
+}else{
+	verde = global.item[2]; 
+}
+
+draw_text(x + -32, y + 60, string("Azul:  ") + string(azul));
+draw_text(x + -32, y + 80, string("Rosa:  ") + string(rosa));
+draw_text(x + -32, y + 100, string("verde:  ") + string(verde));
+
+
 if(global.quest_active == true){
 draw_text(x + -32, y + 130, string("azul:  ") + string(quest_item_amount[0]));
 draw_text(x + -32, y + 150, string("rosa:  ") + string(quest_item_amount[1]));
