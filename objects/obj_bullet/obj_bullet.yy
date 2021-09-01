@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_projectile",
-    "path": "sprites/spr_projectile/spr_projectile.yy",
+    "name": "spr_projectileAlt",
+    "path": "sprites/spr_projectileAlt/spr_projectileAlt.yy",
   },
   "solid": false,
   "visible": true,
