@@ -41,12 +41,12 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room_Start","path":"rooms/Room_Start/Room_Start.yy",},},
-    {"roomId":{"name":"Room_Debug","path":"rooms/Room_Debug/Room_Debug.yy",},},
+    {"roomId":{"name":"Room_CutScene","path":"rooms/Room_CutScene/Room_CutScene.yy",},},
     {"roomId":{"name":"Room_Level1","path":"rooms/Room_Level1/Room_Level1.yy",},},
     {"roomId":{"name":"Room_Level2","path":"rooms/Room_Level2/Room_Level2.yy",},},
     {"roomId":{"name":"Room_Level3","path":"rooms/Room_Level3/Room_Level3.yy",},},
     {"roomId":{"name":"Room_End","path":"rooms/Room_End/Room_End.yy",},},
-    {"roomId":{"name":"Room_CutScene","path":"rooms/Room_CutScene/Room_CutScene.yy",},},
+    {"roomId":{"name":"Room_Debug","path":"rooms/Room_Debug/Room_Debug.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
