@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_tiroPesado",
+    "path": "sprites/spr_tiroPesado/spr_tiroPesado.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
