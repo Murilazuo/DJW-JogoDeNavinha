@@ -14,6 +14,7 @@
     {"id":{"name":"obj_monster","path":"objects/obj_monster/obj_monster.yy",},"order":1,},
     {"id":{"name":"Room_End","path":"rooms/Room_End/Room_End.yy",},"order":5,},
     {"id":{"name":"spr_tiroPesado","path":"sprites/spr_tiroPesado/spr_tiroPesado.yy",},"order":4,},
+    {"id":{"name":"timeline_restart_game","path":"timelines/timeline_restart_game/timeline_restart_game.yy",},"order":0,},
     {"id":{"name":"spr_ship","path":"sprites/spr_ship/spr_ship.yy",},"order":2,},
     {"id":{"name":"Room_Start","path":"rooms/Room_Start/Room_Start.yy",},"order":4,},
     {"id":{"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},"order":5,},
