@@ -1,7 +1,10 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 08E39177
-/// @DnDArgument : "code" "direction = ship_direction;$(13_10)speed = ship_speed;$(13_10)image_angle = direction + 90;$(13_10)$(13_10)switch(enemy_type){$(13_10)case 0:$(13_10)	sprite_index = spr_basic_blue;$(13_10)	break;$(13_10)case 1:$(13_10)	sprite_index = spr_basic_purple;$(13_10)	break;$(13_10)case 2:$(13_10)	sprite_index = spr_basic_green;$(13_10)	break;$(13_10)}$(13_10)$(13_10)$(13_10)alarm[0] = shout_cooldown;"
+/// @DnDArgument : "code" "enemy_type_test = 0;$(13_10)enemy_type = enemy_type_test;$(13_10)$(13_10)direction = ship_direction;$(13_10)speed = ship_speed;$(13_10)image_angle = direction + 90;$(13_10)$(13_10)switch(enemy_type){$(13_10)case 0:$(13_10)	sprite_index = spr_basic_blue;$(13_10)	break;$(13_10)case 1:$(13_10)	sprite_index = spr_basic_purple;$(13_10)	break;$(13_10)case 2:$(13_10)	sprite_index = spr_basic_green;$(13_10)	break;$(13_10)}$(13_10)$(13_10)$(13_10)alarm[0] = shout_cooldown;"
+enemy_type_test = 0;
+enemy_type = enemy_type_test;
+
 direction = ship_direction;
 speed = ship_speed;
 image_angle = direction + 90;
