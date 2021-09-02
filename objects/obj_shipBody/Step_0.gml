@@ -24,11 +24,11 @@ if(currentAmmo <= 0 && buffWindow = false)
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 361A8B65
-/// @DnDArgument : "code" "///@descr Gun$(13_10)if(keyboard_check(vk_space) && gunReady = true && currentAmmo>0)$(13_10){$(13_10)	var instance_bullet = instance_create_layer(x,y,"PlayerProjectile", obj_bullet);$(13_10)	instance_bullet.direction = 90;$(13_10)	instance_bullet.speed = bulletSpeed;$(13_10)	audio_play_sound(snd_Machinegun,10,false);$(13_10)	currentAmmo -= 1;$(13_10)	//subtrair uma bala dos ícones$(13_10)	gunReady = false;$(13_10)	alarm_set(0,gunInterval);$(13_10)}$(13_10)"
+/// @DnDArgument : "code" "///@descr Gun$(13_10)if(mouse_check_button(mb_left) && gunReady = true && currentAmmo>0)$(13_10){$(13_10)	var instance_bullet = instance_create_layer(x,y-18,"PlayerProjectile", obj_bullet);$(13_10)	instance_bullet.direction = 90;$(13_10)	instance_bullet.speed = bulletSpeed;$(13_10)	audio_play_sound(snd_Machinegun,10,false);$(13_10)	currentAmmo -= 1;$(13_10)	//subtrair uma bala dos ícones$(13_10)	gunReady = false;$(13_10)	alarm_set(0,gunInterval);$(13_10)}$(13_10)"
 ///@descr Gun
-if(keyboard_check(vk_space) && gunReady = true && currentAmmo>0)
+if(mouse_check_button(mb_left) && gunReady = true && currentAmmo>0)
 {
-	var instance_bullet = instance_create_layer(x,y,"PlayerProjectile", obj_bullet);
+	var instance_bullet = instance_create_layer(x,y-18,"PlayerProjectile", obj_bullet);
 	instance_bullet.direction = 90;
 	instance_bullet.speed = bulletSpeed;
 	audio_play_sound(snd_Machinegun,10,false);
@@ -83,12 +83,12 @@ if(keyboard_check(ord("D")) && (x+h_Speed < 702))
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 5544E4CE
-/// @DnDArgument : "code" "///@descr Check life and hp$(13_10)if(ship_hp <= 0){$(13_10)	global.life--;$(13_10)	instance_destroy();$(13_10)	instance_destroy(obj_turret);$(13_10)	//spawn explosion obj$(13_10)	//som da nave sendo destruida$(13_10)	if(global.life > 0){$(13_10)		instance_create_layer(448,480,"Player",obj_shipBody);$(13_10)	}$(13_10)}$(13_10)$(13_10)"
+/// @DnDArgument : "code" "///@descr Check life and hp$(13_10)if(ship_hp <= 0){$(13_10)	global.life--;$(13_10)	instance_destroy(obj_turret);$(13_10)	instance_destroy();$(13_10)	//spawn explosion obj$(13_10)	//som da nave sendo destruida$(13_10)	if(global.life > 0){$(13_10)		instance_create_layer(448,480,"Player",obj_shipBody);$(13_10)	}$(13_10)}$(13_10)$(13_10)"
 ///@descr Check life and hp
 if(ship_hp <= 0){
 	global.life--;
-	instance_destroy();
 	instance_destroy(obj_turret);
+	instance_destroy();
 	//spawn explosion obj
 	//som da nave sendo destruida
 	if(global.life > 0){
