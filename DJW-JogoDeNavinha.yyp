@@ -24,6 +24,7 @@
     {"id":{"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},"order":5,},
     {"id":{"name":"bgTest3","path":"sprites/bgTest3/bgTest3.yy",},"order":10,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":1,},
+    {"id":{"name":"obj_life_bar","path":"objects/obj_life_bar/obj_life_bar.yy",},"order":6,},
     {"id":{"name":"bgTest7","path":"sprites/bgTest7/bgTest7.yy",},"order":13,},
     {"id":{"name":"Room_Level2","path":"rooms/Room_Level2/Room_Level2.yy",},"order":2,},
     {"id":{"name":"spr_projectile","path":"sprites/spr_projectile/spr_projectile.yy",},"order":1,},
