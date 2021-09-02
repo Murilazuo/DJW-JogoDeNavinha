@@ -3,25 +3,6 @@
 /// @DnDHash : 25083C59
 draw_self();
 
-/// @DnDAction : YoYo Games.Drawing.Draw_Healthbar
-/// @DnDVersion : 1
-/// @DnDHash : 0E340CE1
-/// @DnDArgument : "x1" "45"
-/// @DnDArgument : "x1_relative" "1"
-/// @DnDArgument : "y1" "32"
-/// @DnDArgument : "y1_relative" "1"
-/// @DnDArgument : "x2" "50"
-/// @DnDArgument : "x2_relative" "1"
-/// @DnDArgument : "y2" "-32"
-/// @DnDArgument : "y2_relative" "1"
-/// @DnDArgument : "direction" "2"
-/// @DnDArgument : "value" "invasion_progression"
-/// @DnDArgument : "backcol" "$FFCCCCCC"
-/// @DnDArgument : "barcol" "$FF191919"
-/// @DnDArgument : "mincol" "$FF14B8FF"
-/// @DnDArgument : "maxcol" "$FF0000FF"
-draw_healthbar(x + 45, y + 32, x + 50, y + -32, invasion_progression, $FFCCCCCC & $FFFFFF, $FF14B8FF & $FFFFFF, $FF0000FF & $FFFFFF, 2, (($FFCCCCCC>>24) != 0), (($FF191919>>24) != 0));
-
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
 /// @DnDHash : 67E1C9B3
