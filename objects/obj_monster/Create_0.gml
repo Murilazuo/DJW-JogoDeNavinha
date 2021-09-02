@@ -28,9 +28,21 @@ quest_time[1] = 800;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 47CB5DA1
-/// @DnDArgument : "code" "///@descr Set Speed sprite$(13_10)image_speed = 0;$(13_10)"
-///@descr Set Speed sprite
+/// @DnDArgument : "code" "///@descr Set sprite$(13_10)image_speed = 0;$(13_10)switch(room){$(13_10)	case Room_Level1:$(13_10)		image_index = 0; $(13_10)	break;$(13_10)	case Room_Level2:$(13_10)		image_index = 1; $(13_10)	break;$(13_10)	case Room_Level3:$(13_10)		image_index = 2; $(13_10)	break;$(13_10)$(13_10)}$(13_10)"
+///@descr Set sprite
 image_speed = 0;
+switch(room){
+	case Room_Level1:
+		image_index = 0; 
+	break;
+	case Room_Level2:
+		image_index = 1; 
+	break;
+	case Room_Level3:
+		image_index = 2; 
+	break;
+
+}
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
