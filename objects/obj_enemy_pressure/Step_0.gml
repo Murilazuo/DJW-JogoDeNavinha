@@ -14,9 +14,10 @@ if(y >= 600){
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 2CD4DAAC
-/// @DnDArgument : "code" "///@descr start path$(13_10)if(y>=96 && start_path == false){$(13_10)	start_path = true$(13_10)	path_start(path_enemy_pressure, enemy_speed, path_action_reverse, false);$(13_10)}$(13_10)$(13_10)"
+/// @DnDArgument : "code" "///@descr start path$(13_10)if(y>=96 && start_path == false){$(13_10)	start_path = true$(13_10)	path_start(path_enemy_pressure, enemy_speed, path_action_reverse, false);$(13_10)	alarm_set(0,10)$(13_10)}$(13_10)$(13_10)"
 ///@descr start path
 if(y>=96 && start_path == false){
 	start_path = true
 	path_start(path_enemy_pressure, enemy_speed, path_action_reverse, false);
+	alarm_set(0,10)
 }
