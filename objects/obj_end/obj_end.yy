@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_empty",
-    "path": "sprites/spr_empty/spr_empty.yy",
+    "name": "spr_soul_purple",
+    "path": "sprites/spr_soul_purple/spr_soul_purple.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,7 +22,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":true,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":27,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +31,7 @@
     "path": "folders/Objects/Ui.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Start",
+  "name": "obj_end",
   "tags": [],
   "resourceType": "GMObject",
 }

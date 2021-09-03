@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 500FAEFE
-/// @DnDArgument : "code" "draw_text_transformed(x,y,"Press any key to start.",1,1,0);"
-draw_text_transformed(x,y,"Press any key to start.",1,1,0);
+/// @DnDArgument : "code" "draw_text_transformed(x,y,"Press space to start.",1,1,0);"
+draw_text_transformed(x,y,"Press space to start.",1,1,0);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment
 /// @DnDVersion : 1.1
