@@ -1,14 +1,15 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 74A54C1E
-/// @DnDArgument : "code" "draw_text_transformed(x + 0, y + 0, string("Obrigado por jogar! \n\n"+$(13_10)"Tesrte \n"+$(13_10)"sadsadsa\n"+$(13_10)"dsadsdas\n"+$(13_10)"\n precione esc para voltar"$(13_10)$(13_10)) , 3, 3, 0);$(13_10)"
-draw_text_transformed(x + 0, y + 0, string("Obrigado por jogar! \n\n"+
-"Tesrte \n"+
-"sadsadsa\n"+
-"dsadsdas\n"+
-"\n precione esc para voltar"
+/// @DnDArgument : "code" "draw_text_transformed(x + 0, y + 0, string("Thanks for playing! \n\n"+$(13_10)"Credits:\n\n" +$(13_10)"Bea\n" +$(13_10)"Bernardo Beier B. M. \n" +$(13_10)"Murilo da rosa Bezerra\n" +$(13_10)"\n\n\nPress scape to return to main menu"$(13_10)$(13_10)) , 2, 2, 0);$(13_10)"
+draw_text_transformed(x + 0, y + 0, string("Thanks for playing! \n\n"+
+"Credits:\n\n" +
+"Bea\n" +
+"Bernardo Beier B. M. \n" +
+"Murilo da rosa Bezerra\n" +
+"\n\n\nPress scape to return to main menu"
 
-) , 3, 3, 0);
+) , 2, 2, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment
 /// @DnDVersion : 1.1
