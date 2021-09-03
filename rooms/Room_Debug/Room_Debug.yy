@@ -30,7 +30,7 @@
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"PlayerProjectile","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":416.0,"y":-64.0,"resourceVersion":"1.0","name":"inst_6C087F21","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_enemy_pressure","path":"objects/obj_enemy_pressure/obj_enemy_pressure.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":-96.0,"resourceVersion":"1.0","name":"inst_62BFA8B","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_enemy_stalker","path":"objects/obj_enemy_stalker/obj_enemy_stalker.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":416.0,"y":32.0,"resourceVersion":"1.0","name":"inst_ECC5DF6","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Enemy","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_shipBody","path":"objects/obj_shipBody/obj_shipBody.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":480.0,"resourceVersion":"1.0","name":"inst_183A3508","tags":[],"resourceType":"GMRInstance",},
@@ -52,7 +52,7 @@
     {"name":"inst_42C5A2DE","path":"rooms/Room_Debug/Room_Debug.yy",},
     {"name":"inst_229419DE","path":"rooms/Room_Debug/Room_Debug.yy",},
     {"name":"inst_6C087F21","path":"rooms/Room_Debug/Room_Debug.yy",},
-    {"name":"inst_62BFA8B","path":"rooms/Room_Debug/Room_Debug.yy",},
+    {"name":"inst_ECC5DF6","path":"rooms/Room_Debug/Room_Debug.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
