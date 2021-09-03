@@ -1,4 +1,6 @@
-/// @DnDAction : YoYo Games.Rooms.Restart_Room
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 0768A5F3
+/// @DnDHash : 4ABFF2D4
+/// @DnDArgument : "code" "global.life = 100;$(13_10)room_restart();"
+global.life = 100;
 room_restart();

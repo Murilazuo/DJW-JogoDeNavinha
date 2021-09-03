@@ -83,15 +83,26 @@ if(keyboard_check(ord("D")) && (x+h_Speed < 702))
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 5544E4CE
-/// @DnDArgument : "code" "///@descr Check life and hp$(13_10)if(ship_hp <= 0){$(13_10)	global.life--;$(13_10)	instance_destroy(obj_turret);$(13_10)	instance_destroy();$(13_10)	//spawn explosion obj$(13_10)	//som da nave sendo destruida$(13_10)	if(global.life > 0){$(13_10)		instance_create_layer(448,480,"Player",obj_shipBody);$(13_10)	}$(13_10)}$(13_10)$(13_10)"
+/// @DnDArgument : "code" "///@descr Check life and hp$(13_10)if(ship_hp <= 0){$(13_10)	global.life--;$(13_10)		//som da nave sendo destruida$(13_10)	instance_destroy(obj_turret);$(13_10)	instance_destroy();$(13_10)	if(global.life > 0){$(13_10)		instance_create_layer(448,480,"Player",obj_shipBody);$(13_10)	}else if(global.life <= 0){$(13_10)		game_restart();	$(13_10)	}$(13_10)}$(13_10)$(13_10)"
 ///@descr Check life and hp
 if(ship_hp <= 0){
 	global.life--;
+		//som da nave sendo destruida
 	instance_destroy(obj_turret);
 	instance_destroy();
-	//spawn explosion obj
-	//som da nave sendo destruida
 	if(global.life > 0){
 		instance_create_layer(448,480,"Player",obj_shipBody);
+	}else if(global.life <= 0){
+		game_restart();	
 	}
+}
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 283506A4
+/// @DnDArgument : "code" "if(object_exists(explosion_instance) == true){$(13_10)	explosion_instance.x = x;$(13_10)	explosion_instance.y = y;$(13_10)$(13_10)}"
+if(object_exists(explosion_instance) == true){
+	explosion_instance.x = x;
+	explosion_instance.y = y;
+
 }
