@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_tiroLeve",
-    "path": "sprites/spr_tiroLeve/spr_tiroLeve.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,16 +18,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemy",
-    "path": "folders/Objects/Enemy.yy",
+    "name": "Explosions ",
+    "path": "folders/Objects/Explosions .yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_bullet_enemy_light",
+  "name": "obj_explosionParent",
   "tags": [],
   "resourceType": "GMObject",
 }
