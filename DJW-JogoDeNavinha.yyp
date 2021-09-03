@@ -64,7 +64,6 @@
     {"id":{"name":"spr_mouse","path":"sprites/spr_mouse/spr_mouse.yy",},"order":0,},
     {"id":{"name":"Obj_bullet_enemy_light","path":"objects/Obj_bullet_enemy_light/Obj_bullet_enemy_light.yy",},"order":3,},
     {"id":{"name":"bgTest5","path":"sprites/bgTest5/bgTest5.yy",},"order":11,},
-    {"id":{"name":"Timeline4","path":"timelines/Timeline4/Timeline4.yy",},"order":5,},
     {"id":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},"order":3,},
     {"id":{"name":"spr_playerHit","path":"sprites/spr_playerHit/spr_playerHit.yy",},"order":0,},
     {"id":{"name":"Room_Level1","path":"rooms/Room_Level1/Room_Level1.yy",},"order":1,},

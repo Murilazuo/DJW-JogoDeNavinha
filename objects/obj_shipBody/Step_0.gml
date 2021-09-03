@@ -96,13 +96,3 @@ if(ship_hp <= 0){
 		game_restart();	
 	}
 }
-
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 283506A4
-/// @DnDArgument : "code" "if(object_exists(explosion_instance) == true){$(13_10)	explosion_instance.x = x;$(13_10)	explosion_instance.y = y;$(13_10)$(13_10)}"
-if(object_exists(explosion_instance) == true){
-	explosion_instance.x = x;
-	explosion_instance.y = y;
-
-}
