@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_stalker_body",
-    "path": "sprites/spr_stalker_body/spr_stalker_body.yy",
+    "name": "spr_stalkerBody_blue",
+    "path": "sprites/spr_stalkerBody_blue/spr_stalkerBody_blue.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,7 +20,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

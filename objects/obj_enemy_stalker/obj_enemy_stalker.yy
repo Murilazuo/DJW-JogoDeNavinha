@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_stalker_turret",
-    "path": "sprites/spr_stalker_turret/spr_stalker_turret.yy",
+    "name": "spr_stalkerTurret_blue",
+    "path": "sprites/spr_stalkerTurret_blue/spr_stalkerTurret_blue.yy",
   },
   "solid": false,
   "visible": true,
