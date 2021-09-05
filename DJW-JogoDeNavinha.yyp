@@ -21,6 +21,7 @@
     {"id":{"name":"obj_monster","path":"objects/obj_monster/obj_monster.yy",},"order":1,},
     {"id":{"name":"spr_stalkerTurret_green","path":"sprites/spr_stalkerTurret_green/spr_stalkerTurret_green.yy",},"order":9,},
     {"id":{"name":"Room_End","path":"rooms/Room_End/Room_End.yy",},"order":5,},
+    {"id":{"name":"spr_guidedMissileDead","path":"sprites/spr_guidedMissileDead/spr_guidedMissileDead.yy",},"order":15,},
     {"id":{"name":"obj_MasterDebugger","path":"objects/obj_MasterDebugger/obj_MasterDebugger.yy",},"order":7,},
     {"id":{"name":"spr_stalkerBody_purple","path":"sprites/spr_stalkerBody_purple/spr_stalkerBody_purple.yy",},"order":7,},
     {"id":{"name":"spr_tiroPesado","path":"sprites/spr_tiroPesado/spr_tiroPesado.yy",},"order":3,},
