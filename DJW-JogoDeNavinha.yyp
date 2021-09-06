@@ -35,6 +35,7 @@
     {"id":{"name":"spr_ship","path":"sprites/spr_ship/spr_ship.yy",},"order":2,},
     {"id":{"name":"spr_stalkerTurret_blue","path":"sprites/spr_stalkerTurret_blue/spr_stalkerTurret_blue.yy",},"order":5,},
     {"id":{"name":"AmmoBar","path":"sprites/AmmoBar/AmmoBar.yy",},"order":21,},
+    {"id":{"name":"spr_quest_overflow","path":"sprites/spr_quest_overflow/spr_quest_overflow.yy",},"order":13,},
     {"id":{"name":"spr_stalkerBody_green","path":"sprites/spr_stalkerBody_green/spr_stalkerBody_green.yy",},"order":10,},
     {"id":{"name":"Room_Start","path":"rooms/Room_Start/Room_Start.yy",},"order":4,},
     {"id":{"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},"order":5,},
