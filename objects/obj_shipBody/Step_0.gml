@@ -24,13 +24,14 @@ if(currentAmmo <= 0 && buffWindow = false)
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 361A8B65
-/// @DnDArgument : "code" "///@descr Gun$(13_10)if(mouse_check_button(mb_left) && gunReady = true && currentAmmo>0)$(13_10){$(13_10)	var instance_bullet = instance_create_layer(x,y-18,"PlayerProjectile", obj_bullet);$(13_10)	instance_bullet.direction = 90;$(13_10)	instance_bullet.speed = bulletSpeed;$(13_10)	audio_play_sound(snd_Machinegun,10,false);$(13_10)	currentAmmo -= 1;$(13_10)	//subtrair uma bala dos ícones$(13_10)	gunReady = false;$(13_10)	alarm_set(0,gunInterval);$(13_10)}$(13_10)"
+/// @DnDArgument : "code" "///@descr Gun$(13_10)if(mouse_check_button(mb_left) && gunReady = true && currentAmmo>0)$(13_10){$(13_10)	var instance_bullet = instance_create_layer(x,y-18,"PlayerProjectile", obj_bullet);$(13_10)	instance_bullet.direction = 90;$(13_10)	instance_bullet.speed = bulletSpeed;$(13_10)	$(13_10)	audio_play_sound(snd_Machinegun,10,false);$(13_10)	currentAmmo -= 1;$(13_10)	//subtrair uma bala dos ícones$(13_10)	gunReady = false;$(13_10)	alarm_set(0,gunInterval);$(13_10)}$(13_10)"
 ///@descr Gun
 if(mouse_check_button(mb_left) && gunReady = true && currentAmmo>0)
 {
 	var instance_bullet = instance_create_layer(x,y-18,"PlayerProjectile", obj_bullet);
 	instance_bullet.direction = 90;
 	instance_bullet.speed = bulletSpeed;
+	
 	audio_play_sound(snd_Machinegun,10,false);
 	currentAmmo -= 1;
 	//subtrair uma bala dos ícones
