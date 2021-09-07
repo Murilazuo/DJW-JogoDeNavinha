@@ -29,6 +29,7 @@
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"enemy_life","path":"objects/obj_enemy_base/obj_enemy_base.yy",},"objectId":{"name":"obj_enemy_base","path":"objects/obj_enemy_base/obj_enemy_base.yy",},"value":"16","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"soul_to_drop","path":"objects/obj_enemy_base/obj_enemy_base.yy",},"objectId":{"name":"obj_enemy_base","path":"objects/obj_enemy_base/obj_enemy_base.yy",},"value":"5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Enemy",

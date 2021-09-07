@@ -69,6 +69,7 @@
     {"id":{"name":"obj_ammunition","path":"objects/obj_ammunition/obj_ammunition.yy",},"order":4,},
     {"id":{"name":"obj_enemy_base","path":"objects/obj_enemy_base/obj_enemy_base.yy",},"order":1,},
     {"id":{"name":"obj_enemy_stalker_body","path":"objects/obj_enemy_stalker_body/obj_enemy_stalker_body.yy",},"order":6,},
+    {"id":{"name":"path_boss","path":"paths/path_boss/path_boss.yy",},"order":1,},
     {"id":{"name":"spr_guidedMissile","path":"sprites/spr_guidedMissile/spr_guidedMissile.yy",},"order":14,},
     {"id":{"name":"bgTest16","path":"sprites/bgTest16/bgTest16.yy",},"order":7,},
     {"id":{"name":"obj_enemy_basicA","path":"objects/obj_enemy_basicA/obj_enemy_basicA.yy",},"order":0,},
