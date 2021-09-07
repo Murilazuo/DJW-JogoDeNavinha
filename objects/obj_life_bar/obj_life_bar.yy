@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "AmmoBar",
-    "path": "sprites/AmmoBar/AmmoBar.yy",
+    "name": "skullLength_test",
+    "path": "sprites/skullLength_test/skullLength_test.yy",
   },
   "solid": false,
   "visible": true,
