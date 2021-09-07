@@ -1,15 +1,18 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 677B6EB1
-/// @DnDArgument : "code" "///@descr Progression Check$(13_10)// check if the player progression is complete$(13_10)if(invasion_progression >= 100){$(13_10)	if(room = Room_Level3 && create_boss == false){$(13_10)		create_boss = true;$(13_10)		instance_create_layer(448,-60,"Enemy",obj_boss);$(13_10)	}else{$(13_10)	room_goto_next();$(13_10)	}$(13_10)}"
+/// @DnDArgument : "code" "///@descr Progression Check$(13_10)// check if the player progression is complete$(13_10)if(invasion_progression >= 100){$(13_10)	if(create_boss == false){$(13_10)	if(room = Room_Level3){$(13_10)		obj_spawner.timeline_loop = 0;$(13_10)		create_boss = true;$(13_10)		instance_create_layer(448,-60,"Enemy",obj_boss);$(13_10)	}else{$(13_10)	room_goto_next();$(13_10)	}$(13_10)	}$(13_10)}"
 ///@descr Progression Check
 // check if the player progression is complete
 if(invasion_progression >= 100){
-	if(room = Room_Level3 && create_boss == false){
+	if(create_boss == false){
+	if(room = Room_Level3){
+		obj_spawner.timeline_loop = 0;
 		create_boss = true;
 		instance_create_layer(448,-60,"Enemy",obj_boss);
 	}else{
 	room_goto_next();
+	}
 	}
 }
 
