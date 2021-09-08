@@ -9,7 +9,7 @@
     "path": "folders/Timelines.yy",
   },
   "resourceVersion": "1.0",
-  "name": "timeline_basicA",
+  "name": "timeline_basicB",
   "tags": [],
   "resourceType": "GMTimeline",
 }

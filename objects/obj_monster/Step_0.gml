@@ -45,8 +45,8 @@ if(global.quest_active == true){
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 53AC1297
-/// @DnDArgument : "code" "///@desc Quest UI updater$(13_10)quest_markers[0] = quest_item_amount[0] - global.item[0];$(13_10)quest_markers[1] = quest_item_amount[1] - global.item[1];$(13_10)quest_markers[2] = quest_item_amount[2] - global.item[2];$(13_10)$(13_10)if(quest_markers[0] < 0)$(13_10){$(13_10)	draw_sprite(spr_quest_overflow,0,x-32,y+100);$(13_10)}$(13_10)$(13_10)if(quest_markers[1] < 0)$(13_10){$(13_10)	draw_sprite(spr_quest_overflow,0,x,y+100);$(13_10)}$(13_10)$(13_10)if(quest_markers[2] < 0)$(13_10){$(13_10)	draw_sprite(spr_quest_overflow,0,x+32,y+100);$(13_10)}$(13_10)$(13_10)"
+/// @DnDHash : 676C1298
+/// @DnDArgument : "code" "///@desc Quest UI updater$(13_10)quest_markers[0] = quest_item_amount[0] - global.item[0];$(13_10)quest_markers[1] = quest_item_amount[1] - global.item[1];$(13_10)quest_markers[2] = quest_item_amount[2] - global.item[2];$(13_10)$(13_10)if(quest_markers[0] < 0)$(13_10){$(13_10)	//draw_sprite(spr_quest_overflow,0,x-32,y+100);$(13_10)}$(13_10)$(13_10)if(quest_markers[1] < 0)$(13_10){$(13_10)	//draw_sprite(spr_quest_overflow,0,x,y+100);$(13_10)}$(13_10)$(13_10)if(quest_markers[2] < 0)$(13_10){$(13_10)	//draw_sprite(spr_quest_overflow,0,x+32,y+100);$(13_10)}$(13_10)$(13_10)"
 ///@desc Quest UI updater
 quest_markers[0] = quest_item_amount[0] - global.item[0];
 quest_markers[1] = quest_item_amount[1] - global.item[1];
@@ -54,15 +54,15 @@ quest_markers[2] = quest_item_amount[2] - global.item[2];
 
 if(quest_markers[0] < 0)
 {
-	draw_sprite(spr_quest_overflow,0,x-32,y+100);
+	//draw_sprite(spr_quest_overflow,0,x-32,y+100);
 }
 
 if(quest_markers[1] < 0)
 {
-	draw_sprite(spr_quest_overflow,0,x,y+100);
+	//draw_sprite(spr_quest_overflow,0,x,y+100);
 }
 
 if(quest_markers[2] < 0)
 {
-	draw_sprite(spr_quest_overflow,0,x+32,y+100);
+	//draw_sprite(spr_quest_overflow,0,x+32,y+100);
 }
