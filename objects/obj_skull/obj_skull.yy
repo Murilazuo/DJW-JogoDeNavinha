@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_heart32x32",
-    "path": "sprites/spr_heart32x32/spr_heart32x32.yy",
+    "name": "spr_skullAltColor",
+    "path": "sprites/spr_skullAltColor/spr_skullAltColor.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -30,7 +28,7 @@
     "path": "folders/Objects/Ui.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Life",
+  "name": "obj_skull",
   "tags": [],
   "resourceType": "GMObject",
 }
