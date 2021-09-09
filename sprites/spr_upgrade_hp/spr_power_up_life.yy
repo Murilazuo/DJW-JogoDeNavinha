@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Power Up",
-    "path": "folders/Sprites/Power Up.yy",
+    "name": "Upgrade",
+    "path": "folders/Sprites/Upgrade.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_power_up_life",

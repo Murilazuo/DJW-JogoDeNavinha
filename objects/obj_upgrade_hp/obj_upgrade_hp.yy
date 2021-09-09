@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_upgrade_hp",
+    "path": "sprites/spr_upgrade_hp/spr_upgrade_hp.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -17,10 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":true,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +28,7 @@
     "path": "folders/Objects/Upgrade.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_power_up_soul",
+  "name": "obj_upgrade_hp",
   "tags": [],
   "resourceType": "GMObject",
 }

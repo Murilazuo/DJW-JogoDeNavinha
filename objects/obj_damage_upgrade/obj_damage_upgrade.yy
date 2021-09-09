@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_quest_purple",
+    "path": "sprites/spr_quest_purple/spr_quest_purple.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -18,17 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":true,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Upgrade",
-    "path": "folders/Objects/Upgrade.yy",
+    "name": "Ui",
+    "path": "folders/Objects/Ui.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_power_up_soul",
+  "name": "obj_damage_upgrade",
   "tags": [],
   "resourceType": "GMObject",
 }

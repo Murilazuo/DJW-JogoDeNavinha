@@ -29,6 +29,9 @@
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_bullet_enemy_heav","path":"objects/Obj_bullet_enemy_heav/Obj_bullet_enemy_heav.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_bullet_enemy_light","path":"objects/Obj_bullet_enemy_light/Obj_bullet_enemy_light.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_enemy_base","path":"objects/obj_enemy_base/obj_enemy_base.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_upgrade_life","path":"objects/obj_upgrade_life/obj_upgrade_life.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_upgrade_hp","path":"objects/obj_upgrade_hp/obj_upgrade_hp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_upgrade_damage","path":"objects/obj_upgrade_damage/obj_upgrade_damage.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":0,"value":"6.5","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"gunInterval","tags":[],"resourceType":"GMObjectProperty",},

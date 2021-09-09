@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7d28af68-89c6-4857-971b-126abd9a5b08","path":"sprites/spr_power_up_speed/spr_power_up_speed.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7d28af68-89c6-4857-971b-126abd9a5b08","path":"sprites/spr_power_up_speed/spr_power_up_speed.yy",},"LayerId":{"name":"e4a04872-2c15-45bd-8bd0-51fe44d51598","path":"sprites/spr_power_up_speed/spr_power_up_speed.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_power_up_speed","path":"sprites/spr_power_up_speed/spr_power_up_speed.yy",},"resourceVersion":"1.0","name":"7d28af68-89c6-4857-971b-126abd9a5b08","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fcde5db0-8dd7-46b2-b437-4f29cda42845","path":"sprites/spr_upgrade_damage/spr_upgrade_damage.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fcde5db0-8dd7-46b2-b437-4f29cda42845","path":"sprites/spr_upgrade_damage/spr_upgrade_damage.yy",},"LayerId":{"name":"45edc444-52b0-4063-be08-fee597e039ef","path":"sprites/spr_upgrade_damage/spr_upgrade_damage.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_upgrade_damage","path":"sprites/spr_upgrade_damage/spr_upgrade_damage.yy",},"resourceVersion":"1.0","name":"fcde5db0-8dd7-46b2-b437-4f29cda42845","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_power_up_speed","path":"sprites/spr_power_up_speed/spr_power_up_speed.yy",},
+    "spriteId": {"name":"spr_upgrade_damage","path":"sprites/spr_upgrade_damage/spr_upgrade_damage.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"03d5d359-4541-4cc6-bfec-4132f0a521d0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7d28af68-89c6-4857-971b-126abd9a5b08","path":"sprites/spr_power_up_speed/spr_power_up_speed.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f7341696-ae68-43ba-99d8-fecefb85c685","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fcde5db0-8dd7-46b2-b437-4f29cda42845","path":"sprites/spr_upgrade_damage/spr_upgrade_damage.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_power_up_speed","path":"sprites/spr_power_up_speed/spr_power_up_speed.yy",},
+    "parent": {"name":"spr_upgrade_damage","path":"sprites/spr_upgrade_damage/spr_upgrade_damage.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_power_up_speed",
+    "name": "spr_upgrade_damage",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e4a04872-2c15-45bd-8bd0-51fe44d51598","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"45edc444-52b0-4063-be08-fee597e039ef","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Power Up",
-    "path": "folders/Sprites/Power Up.yy",
+    "name": "Upgrade",
+    "path": "folders/Sprites/Upgrade.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_power_up_speed",
+  "name": "spr_upgrade_damage",
   "tags": [],
   "resourceType": "GMSprite",
 }
