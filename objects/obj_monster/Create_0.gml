@@ -54,3 +54,8 @@ switch(room){
 /// @DnDArgument : "code" "///@descr Set Firt Quest$(13_10)alarm_set(0,random_range(quest_time[0],quest_time[1]));"
 ///@descr Set Firt Quest
 alarm_set(0,random_range(quest_time[0],quest_time[1]));
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 7653A51F
+/// @DnDArgument : "code" ""
