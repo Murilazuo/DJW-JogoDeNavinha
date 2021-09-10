@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_upgrade_hp",
-    "path": "sprites/spr_upgrade_hp/spr_upgrade_hp.yy",
+    "name": "spr_soul_blue",
+    "path": "sprites/spr_soul_blue/spr_soul_blue.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_empty",
-    "path": "objects/obj_empty/obj_empty.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,15 +20,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":true,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Upgrade",
-    "path": "folders/Objects/Upgrade.yy",
+    "name": "Ui",
+    "path": "folders/Objects/Ui.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_upgrade_hp",
+  "name": "obj_pontos",
   "tags": [],
   "resourceType": "GMObject",
 }
