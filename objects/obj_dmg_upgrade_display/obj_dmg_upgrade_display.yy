@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_quest_purple",
-    "path": "sprites/spr_quest_purple/spr_quest_purple.yy",
+    "name": "spr_powerUpgradePanel",
+    "path": "sprites/spr_powerUpgradePanel/spr_powerUpgradePanel.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,7 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,7 +31,7 @@
     "path": "folders/Objects/Ui.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_damage_upgrade",
+  "name": "obj_dmg_upgrade_display",
   "tags": [],
   "resourceType": "GMObject",
 }
