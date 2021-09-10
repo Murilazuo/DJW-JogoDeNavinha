@@ -41,3 +41,11 @@ if(keyboard_check_pressed(vk_f6)){
 			obj_monster.invasion_progression+=10;	
 		}
 }
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 3DC75D80
+/// @DnDArgument : "code" "if(room = Room_Start){$(13_10)	global.pontos = 0;	$(13_10)}"
+if(room = Room_Start){
+	global.pontos = 0;	
+}
