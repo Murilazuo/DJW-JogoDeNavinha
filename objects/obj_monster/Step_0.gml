@@ -19,7 +19,7 @@ if(invasion_progression >= 100){
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 2257150A
-/// @DnDArgument : "code" "///@desc Quest System$(13_10)$(13_10)if(global.quest_active == true){$(13_10)		   $(13_10)	if(global.item[0] >= quest_item_amount[0] &&$(13_10)	   global.item[1] >= quest_item_amount[1] &&$(13_10)	   global.item[2] >= quest_item_amount[2])$(13_10)	  { //check if the quest is compleate$(13_10)		invasion_progression += quest_item_amount[0] + $(13_10)		quest_item_amount[1] +$(13_10)		quest_item_amount[2];$(13_10)		global.item[0] = 0;$(13_10)		global.item[1] = 0;$(13_10)		global.item[2] = 0;$(13_10)		quest_complete = true;$(13_10)		alarm[2] = 1;$(13_10)		$(13_10)		$(13_10)		$(13_10)		$(13_10)	 }$(13_10)}"
+/// @DnDArgument : "code" "///@desc Quest System$(13_10)$(13_10)if(global.quest_active == true){$(13_10)		   $(13_10)	if(global.item[0] >= quest_item_amount[0] &&$(13_10)	   global.item[1] >= quest_item_amount[1] &&$(13_10)	   global.item[2] >= quest_item_amount[2])$(13_10)	  { //check if the quest is compleate$(13_10)		invasion_progression += quest_item_amount[0] + $(13_10)		quest_item_amount[1] +$(13_10)		quest_item_amount[2];$(13_10)		global.item[0] = 0;$(13_10)		global.item[1] = 0;$(13_10)		global.item[2] = 0;$(13_10)		quest_complete = true;$(13_10)		if(quest_complete == true){$(13_10)		event_user(0);	$(13_10)		}$(13_10)		$(13_10)		$(13_10)		$(13_10)		$(13_10)	 }$(13_10)}"
 ///@desc Quest System
 
 if(global.quest_active == true){
@@ -35,7 +35,9 @@ if(global.quest_active == true){
 		global.item[1] = 0;
 		global.item[2] = 0;
 		quest_complete = true;
-		alarm[2] = 1;
+		if(quest_complete == true){
+		event_user(0);	
+		}
 		
 		
 		
@@ -65,4 +67,15 @@ if(quest_markers[1] < 0)
 if(quest_markers[2] < 0)
 {
 	//draw_sprite(spr_quest_overflow,0,x+32,y+100);
+}
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 7AC3EF1E
+/// @DnDArgument : "code" "/// @descr compleate quest$(13_10)if(keyboard_check_pressed(vk_numpad4)){$(13_10)global.item[0] = quest_item_amount[0];$(13_10)global.item[1] = quest_item_amount[1];$(13_10)global.item[2] = quest_item_amount[2];$(13_10)}"
+/// @descr compleate quest
+if(keyboard_check_pressed(vk_numpad4)){
+global.item[0] = quest_item_amount[0];
+global.item[1] = quest_item_amount[1];
+global.item[2] = quest_item_amount[2];
 }
