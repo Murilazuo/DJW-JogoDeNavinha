@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "borderTest",
-    "path": "sprites/borderTest/borderTest.yy",
+    "name": "borderTest282",
+    "path": "sprites/borderTest282/borderTest282.yy",
   },
   "solid": true,
   "visible": true,
