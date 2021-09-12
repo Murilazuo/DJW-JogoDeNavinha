@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.48,
+  "volume": 0.34,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_Machinegun.wav",
-  "duration": 0.155397,
+  "soundFile": "snd_Soul.wav",
+  "duration": 0.119048,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_Machinegun",
+  "name": "snd_Soul",
   "tags": [],
   "resourceType": "GMSound",
 }
