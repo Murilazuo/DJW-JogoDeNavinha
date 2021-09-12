@@ -146,6 +146,7 @@
     {"id":{"name":"spr_mouse","path":"sprites/spr_mouse/spr_mouse.yy",},"order":0,},
     {"id":{"name":"Obj_bullet_enemy_light","path":"objects/Obj_bullet_enemy_light/Obj_bullet_enemy_light.yy",},"order":3,},
     {"id":{"name":"obj_turret","path":"objects/obj_turret/obj_turret.yy",},"order":3,},
+    {"id":{"name":"obj_bossStage1","path":"objects/obj_bossStage1/obj_bossStage1.yy",},"order":9,},
     {"id":{"name":"spr_playerHit","path":"sprites/spr_playerHit/spr_playerHit.yy",},"order":0,},
     {"id":{"name":"spr_Lives3","path":"sprites/spr_Lives3/spr_Lives3.yy",},"order":1,},
     {"id":{"name":"timeline_boss","path":"timelines/timeline_boss/timeline_boss.yy",},"order":1,},

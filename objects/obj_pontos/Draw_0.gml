@@ -9,5 +9,6 @@ draw_set_alpha(l41A3A464_0 / $ff);
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 16CB25B5
-/// @DnDArgument : "code" "draw_text(x,y,global.pontos);$(13_10)"
+/// @DnDArgument : "code" "draw_set_font(Digital);$(13_10)draw_text(x,y,global.pontos);$(13_10)"
+draw_set_font(Digital);
 draw_text(x,y,global.pontos);
