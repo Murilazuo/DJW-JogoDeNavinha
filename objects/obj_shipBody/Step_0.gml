@@ -84,10 +84,11 @@ if(keyboard_check(ord("D")) && (x+h_Speed < 702))
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 5544E4CE
-/// @DnDArgument : "code" "///@descr Check life and hp$(13_10)if(ship_hp <= 0){$(13_10)	global.life--;$(13_10)	audio_play_sound(snd_PlayerDeath,10,false);$(13_10)	instance_destroy(obj_turret);$(13_10)	instance_destroy();$(13_10)$(13_10)	if(global.life > 0){$(13_10)		instance_create_layer(448,480,"Player",obj_shipBody);$(13_10)$(13_10)		$(13_10)	}else if(global.life <= 0){$(13_10)		game_restart();	$(13_10)	}$(13_10)}$(13_10)$(13_10)"
+/// @DnDArgument : "code" "///@descr Check life and hp$(13_10)if(ship_hp <= 0){$(13_10)	global.life--;$(13_10)	global.damage_upgrade = 0;$(13_10)	audio_play_sound(snd_PlayerDeath,10,false);$(13_10)	instance_destroy(obj_turret);$(13_10)	instance_destroy();$(13_10)$(13_10)	if(global.life > 0){$(13_10)		instance_create_layer(448,480,"Player",obj_shipBody);$(13_10)$(13_10)		$(13_10)	}else if(global.life <= 0){$(13_10)		game_restart();	$(13_10)	}$(13_10)}$(13_10)$(13_10)"
 ///@descr Check life and hp
 if(ship_hp <= 0){
 	global.life--;
+	global.damage_upgrade = 0;
 	audio_play_sound(snd_PlayerDeath,10,false);
 	instance_destroy(obj_turret);
 	instance_destroy();
