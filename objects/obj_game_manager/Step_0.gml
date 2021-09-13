@@ -45,7 +45,16 @@ if(keyboard_check_pressed(vk_f6)){
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 3DC75D80
-/// @DnDArgument : "code" "if(room = Room_Start){$(13_10)	global.pontos = 0;	$(13_10)}"
+/// @DnDArgument : "code" "if(room = Room_Start){$(13_10)	global.pontos = 0;	$(13_10)}$(13_10)if(keyboard_check_pressed(vk_add) == true){$(13_10) volume_master+=0.1;$(13_10)}$(13_10)$(13_10)if(keyboard_check_pressed(vk_subtract) == true){$(13_10) volume_master-=0.1;$(13_10)}$(13_10)$(13_10)audio_set_master_gain(0, volume_master);"
 if(room = Room_Start){
 	global.pontos = 0;	
 }
+if(keyboard_check_pressed(vk_add) == true){
+ volume_master+=0.1;
+}
+
+if(keyboard_check_pressed(vk_subtract) == true){
+ volume_master-=0.1;
+}
+
+audio_set_master_gain(0, volume_master);
