@@ -32,18 +32,18 @@ create_boss = false;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 47CB5DA1
-/// @DnDArgument : "code" "///@descr Set sprite$(13_10)image_speed = 0;$(13_10)switch(room){$(13_10)	case Room_Level1:$(13_10)		image_index = 0; $(13_10)	break;$(13_10)	case Room_Level2:$(13_10)		image_index = 1; $(13_10)	break;$(13_10)	case Room_Level3:$(13_10)		image_index = 2; $(13_10)	break;$(13_10)$(13_10)}$(13_10)"
+/// @DnDArgument : "code" "///@descr Set sprite$(13_10)image_speed = 0;$(13_10)switch(room){$(13_10)	case Room_Level1:$(13_10)		sprite_index = spr_invasion1;$(13_10)	break;$(13_10)	case Room_Level2:$(13_10)		sprite_index = spr_invasion2;$(13_10)	break;$(13_10)	case Room_Level3:$(13_10)		sprite_index = spr_invasion3;$(13_10)	break;$(13_10)$(13_10)}$(13_10)"
 ///@descr Set sprite
 image_speed = 0;
 switch(room){
 	case Room_Level1:
-		image_index = 0; 
+		sprite_index = spr_invasion1;
 	break;
 	case Room_Level2:
-		image_index = 1; 
+		sprite_index = spr_invasion2;
 	break;
 	case Room_Level3:
-		image_index = 2; 
+		sprite_index = spr_invasion3;
 	break;
 
 }
