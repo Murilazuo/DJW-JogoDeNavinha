@@ -1,9 +1,13 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 1539944E
-/// @DnDArgument : "code" "$(13_10)var bullet_angle = bullet_angle_mod; $(13_10)$(13_10)$(13_10)for(var i=0; i<bullet_to_shoot; i++)$(13_10)	{$(13_10)		var bullet = instance_create_layer(x,y+32,"EnemyProjectile", selected_projectile);$(13_10)		$(13_10)		bullet.direction = 	bullet_angle + bullet_start_angle;$(13_10)		bullet.speed = bullet_speed;$(13_10)		bullet_angle += bullet_angle_mod;$(13_10)	}$(13_10)	$(13_10)	bullet_start_angle += bullet_start_angle_mod;"
+/// @DnDArgument : "code" "$(13_10)var bullet_angle = bullet_angle_mod; $(13_10)if(global.isStalkerActive = false)$(13_10){$(13_10)	instance_create_layer(256,-64,"Enemy",obj_enemy_stalker);$(13_10)}$(13_10)$(13_10)$(13_10)for(var i=0; i<bullet_to_shoot; i++)$(13_10)	{$(13_10)		var bullet = instance_create_layer(x,y+32,"EnemyProjectile", selected_projectile);$(13_10)		$(13_10)		bullet.direction = 	bullet_angle + bullet_start_angle;$(13_10)		bullet.speed = bullet_speed;$(13_10)		bullet_angle += bullet_angle_mod;$(13_10)	}$(13_10)	$(13_10)	bullet_start_angle += bullet_start_angle_mod;"
 
 var bullet_angle = bullet_angle_mod; 
+if(global.isStalkerActive = false)
+{
+	instance_create_layer(256,-64,"Enemy",obj_enemy_stalker);
+}
 
 
 for(var i=0; i<bullet_to_shoot; i++)
